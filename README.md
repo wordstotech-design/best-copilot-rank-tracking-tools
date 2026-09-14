@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://aiclicks.io/">
-    <img src="REPLACE_WITH_SCREENSHOT_URL" alt="best-copilot-rank-tracking-tools" />
+<img width="1749" height="841" alt="image" src="https://github.com/user-attachments/assets/dd130264-94d1-4e2a-bd5c-5c2596c0b949" />
   </a>
 </p>
 
