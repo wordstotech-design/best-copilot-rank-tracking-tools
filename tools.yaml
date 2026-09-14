@@ -1,0 +1,68 @@
+# Source dataset for the comparison table in README.md.
+# Run `python render_table.py --write` after editing to regenerate the table.
+# Facts (pricing, Copilot coverage, enterprise features) verified against
+# vendor pricing pages and G2 in September 2026 and change often.
+# copilot_coverage states which Copilot surface the tool actually watches,
+# not just whether Copilot appears on a features list. None of the tools
+# below reach Microsoft 365 Copilot, only the public Bing side. Say so.
+# enterprise_fit is backed by something checkable: SSO, an admin console,
+# seat based reporting, or a documented API, never an adjective.
+# Row order after AIclicks follows the ladder from cheapest self serve
+# entry to sales gated enterprise only, the organizing idea of this list.
+
+tools:
+  - name: AIclicks
+    url: https://aiclicks.io
+    copilot_coverage: "Yes, consumer Copilot, selectable from the Starter tier alongside two other engines"
+    enterprise_fit: "API from Pro at $189/mo, GA4 tie in, custom integrations and a dedicated specialist at Enterprise"
+    price_from: "$59/mo"
+    best_for: "Self serve Copilot tracking with the fix attached, not just a number"
+
+  - name: Rankscale
+    url: https://www.rankscale.ai
+    copilot_coverage: "Yes, consumer Copilot, added a query fan out view in June 2026"
+    enterprise_fit: "Credit based tiers from $20/mo, SSO and top features gated to $780/mo Enterprise"
+    price_from: "$20/mo"
+    best_for: "Cheapest way onto a plan that scales toward enterprise features"
+
+  - name: Otterly AI
+    url: https://otterly.ai
+    copilot_coverage: "Yes, consumer Copilot on every paid tier, including the entry plan"
+    enterprise_fit: "SSO is an Enterprise add on, API and team reporting from Standard at $189/mo"
+    price_from: "$29/mo"
+    best_for: "Adding Copilot to a tracking budget without an enterprise contract"
+
+  - name: Peec AI
+    url: https://peec.ai
+    copilot_coverage: "Yes, consumer Copilot, but only 3 of 6 engines are included by default"
+    enterprise_fit: "SSO, full engine access and API are Enterprise only, though every tier gets unlimited seats"
+    price_from: "$95/mo"
+    best_for: "Structured prompt level reporting once you pay for the other three engines"
+
+  - name: Advanced Web Ranking
+    url: https://www.advancedwebranking.com
+    copilot_coverage: "Yes, consumer Copilot addable as a tracked search engine inside existing rank projects"
+    enterprise_fit: "Agency white label and API from Agency at $279/mo, SSO reserved for the $980/mo top tier"
+    price_from: "$139/mo"
+    best_for: "Agencies bolting Copilot onto SERP tracking they already run"
+
+  - name: Scrunch AI
+    url: https://scrunch.com
+    copilot_coverage: "Yes, consumer Copilot included from the Core tier, not held back to Enterprise"
+    enterprise_fit: "Competitive and persona intelligence module reserved for Enterprise"
+    price_from: "$250/mo"
+    best_for: "Mid market teams that want Copilot in the base plan, not an upsell"
+
+  - name: Profound
+    url: https://www.tryprofound.com
+    copilot_coverage: "Yes, consumer Copilot, but only on the Enterprise tier, absent from both self serve plans"
+    enterprise_fit: "SOC 2 Type II, SSO and SAML, role based access, and a dedicated Slack channel at Enterprise"
+    price_from: "$99/mo"
+    best_for: "Security first buyers who need the compliance stack, once budget clears Enterprise"
+
+  - name: Brandlight
+    url: https://www.brandlight.ai
+    copilot_coverage: "Yes, consumer Copilot, stated as a tracked platform across its enterprise program"
+    enterprise_fit: "No public self serve pricing, a paid pilot and a sales process precede any contract"
+    price_from: "Custom, sales only"
+    best_for: "Large enterprises buying a managed program instead of self serve software"
